@@ -1,4 +1,4 @@
-# 🧠 Human Action Recognition Using CNN (CSV-Mapped Image Labels)
+#  Human Action Recognition Using CNN (CSV-Mapped Image Labels)
 
 This project implements a **Convolutional Neural Network (CNN)** to classify **human actions from images**.  
 Unlike standard datasets, the images are not arranged in class-wise folders. Instead:
@@ -11,7 +11,7 @@ This requires a **custom pipeline** for loading, preprocessing, and training.
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 
 The goal is to build a deep learning model capable of identifying various human actions such as:
 
@@ -27,7 +27,7 @@ The project uses a CNN architecture trained on manually loaded images and CSV-ba
 
 ---
 
-## 📁 Dataset Structure
+##  Dataset Structure
 
 Human Action Recognition/
 │
@@ -42,7 +42,7 @@ Human Action Recognition/
 
 ---
 
-## 🧩 Pipeline Steps
+##  Pipeline Steps
 
 ### **1. Load CSV files**  
 Reads filenames and labels from the CSV.
@@ -81,7 +81,7 @@ Saved for future deployment or inference.
 
 ---
 
-## 🧠 CNN Architecture
+##  CNN Architecture
 
 Input (64x64x3)
 ↓
@@ -107,7 +107,7 @@ Dense (num_classes, Softmax)
 
 ---
 
-## 📊 Training Performance
+## Training Performance
 
 - Training accuracy increased with epochs  
 - Validation accuracy stabilized around ~30–40%  
@@ -115,7 +115,7 @@ Dense (num_classes, Softmax)
 
 ---
 
-## 🧪 Example: Prediction Code
+##  Example: Prediction Code
 
 ```python
 predictions = model.predict(X_test)
